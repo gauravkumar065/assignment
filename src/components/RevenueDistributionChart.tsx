@@ -1,7 +1,7 @@
 import React from "react";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { COLORS } from "../data/mockdata";
+import { COLORS } from "../data/mockData";
 
 interface RevenueData {
   name: string;
@@ -33,7 +33,7 @@ const RevenueDistributionChart: React.FC<{ data: RevenueData[] }> = ({
             >
               {data.map((entry, index) => (
                 <Cell
-                  key={`cell-${index}`}
+                  key={`cell-${index}${entry}`}
                   fill={COLORS[index % COLORS.length]}
                 />
               ))}

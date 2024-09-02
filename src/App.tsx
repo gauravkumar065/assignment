@@ -5,7 +5,7 @@ import {
   revenueData,
   topSongsData,
   streamData,
-} from "./data/mockdata";
+} from "./data/mockData";
 import { SkeletonLoading } from "./components/Skeleton";
 
 // Lazy load components
