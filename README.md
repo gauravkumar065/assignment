@@ -14,7 +14,7 @@ To get the project up and running on your local machine, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/your-project-name.git
+   git clone https://github.com/gauravkumar065/assignment.git
    cd your-project-name
    ```
 
@@ -44,7 +44,7 @@ In the project directory, you can run:
 your-project-name/
 ├── public/
 ├── src/
-│   ├── components/
+│   ├── components
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
@@ -53,24 +53,3 @@ your-project-name/
 ├── vite.config.js
 └── README.md
 ```
-
-## Customizing the Project
-
-- Modify `src/App.jsx` to change the main application component.
-- Add your own components in the `src/components/` directory.
-- Update styles in `src/index.css` or add new CSS/SCSS files as needed.
-
-## Learn More
-
-To learn more about Vite and React, check out the following resources:
-
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://reactjs.org/)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
